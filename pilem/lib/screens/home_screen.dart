@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
               return Column(
                 children: [
                   Image.network(
-                    '${movies.posterpath}',
+                    '${movie.posterPath}',
                     height: 150,
                     width: 100,
                     fit: BoxFit.cover,
